@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><title>Master Language</title>
+    <style>body{font-family:sans-serif; background:#e9ecef; display:flex; justify-content:center; padding:20px;}
+    .card{background:white; padding:25px; width:100%; max-width:800px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.1);}
+    .box{margin:15px 0; padding:15px; border-radius:10px; background:#f8f9fa; border-left:6px solid #007bff;}
+    button{background:#007bff; color:white; border:none; padding:5px 8px; border-radius:3px; cursor:pointer; margin:2px;}
+    .btn-vn{background:#6f42c1;} small{color: #555;}</style></head><body><div class="card"><h2>Luyện Phản Xạ Đa Ngôn Ngữ</h2>
+        <div class="box">
+            <p><strong>Q:</strong> How are you? <small><em>(/haʊ ɑːr juː/)</em></small> 
+               <button onclick="new Audio('audio/1_en.mp3').play()">🔊 EN</button>
+               你好吗？ <small><em>(nǐ hǎo ma?)</em></small> 
+               <button onclick="new Audio('audio/1_zh.mp3').play()">🔊 ZH</button>
+               Bạn khỏe không? <button class="btn-vn" onclick="new Audio('audio/1_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_1" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> I am fine. <small><em>(/aɪ æm faɪn/)</em></small> 
+                   <button onclick="new Audio('audio/a1_en.mp3').play()">🔊 EN</button>
+                   我很好。 <small><em>(wǒ hěn hǎo.)</em></small> 
+                   <button onclick="new Audio('audio/a1_zh.mp3').play()">🔊 ZH</button>
+                   Tôi rất khỏe. <button class="btn-vn" onclick="new Audio('audio/a1_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_1').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> What is your name? <small><em>(/wɒt ɪz jɔːr neɪm/)</em></small> 
+               <button onclick="new Audio('audio/2_en.mp3').play()">🔊 EN</button>
+               你叫什么名字？ <small><em>(nǐ jiào shénme míngzì?)</em></small> 
+               <button onclick="new Audio('audio/2_zh.mp3').play()">🔊 ZH</button>
+               Bạn tên là gì? <button class="btn-vn" onclick="new Audio('audio/2_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_2" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> My name is Alex. <small><em>(/maɪ neɪm ɪz ˈælɪks/)</em></small> 
+                   <button onclick="new Audio('audio/a2_en.mp3').play()">🔊 EN</button>
+                   我叫 Alex。 <small><em>(wǒ jiào Alex.)</em></small> 
+                   <button onclick="new Audio('audio/a2_zh.mp3').play()">🔊 ZH</button>
+                   Tôi tên là Alex. <button class="btn-vn" onclick="new Audio('audio/a2_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_2').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> Where are you from? <small><em>(/wɛər ɑːr juː frʌm/)</em></small> 
+               <button onclick="new Audio('audio/3_en.mp3').play()">🔊 EN</button>
+               你从哪儿来？ <small><em>(nǐ cóng nǎr lái?)</em></small> 
+               <button onclick="new Audio('audio/3_zh.mp3').play()">🔊 ZH</button>
+               Bạn đến từ đâu? <button class="btn-vn" onclick="new Audio('audio/3_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_3" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> I am from Vietnam. <small><em>(/aɪ æm frʌm ˌviːetˈnæm/)</em></small> 
+                   <button onclick="new Audio('audio/a3_en.mp3').play()">🔊 EN</button>
+                   我来自越南。 <small><em>(wǒ láizì yuènán.)</em></small> 
+                   <button onclick="new Audio('audio/a3_zh.mp3').play()">🔊 ZH</button>
+                   Tôi đến từ Việt Nam. <button class="btn-vn" onclick="new Audio('audio/a3_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_3').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> What do you do? <small><em>(/wɒt duː juː duː/)</em></small> 
+               <button onclick="new Audio('audio/4_en.mp3').play()">🔊 EN</button>
+               你做什么工作？ <small><em>(nǐ zuò shénme gōngzuò?)</em></small> 
+               <button onclick="new Audio('audio/4_zh.mp3').play()">🔊 ZH</button>
+               Bạn làm nghề gì? <button class="btn-vn" onclick="new Audio('audio/4_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_4" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> I am a teacher. <small><em>(/aɪ æm ə ˈtiːtʃər/)</em></small> 
+                   <button onclick="new Audio('audio/a4_en.mp3').play()">🔊 EN</button>
+                   我是老师。 <small><em>(wǒ shì lǎoshī.)</em></small> 
+                   <button onclick="new Audio('audio/a4_zh.mp3').play()">🔊 ZH</button>
+                   Tôi là giáo viên. <button class="btn-vn" onclick="new Audio('audio/a4_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_4').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> Can you help me? <small><em>(/kæn juː hɛlp miː/)</em></small> 
+               <button onclick="new Audio('audio/5_en.mp3').play()">🔊 EN</button>
+               你能帮我吗？ <small><em>(nǐ néng bāng wǒ ma?)</em></small> 
+               <button onclick="new Audio('audio/5_zh.mp3').play()">🔊 ZH</button>
+               Bạn giúp tôi được không? <button class="btn-vn" onclick="new Audio('audio/5_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_5" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> Of course. <small><em>(/əv kɔːrs/)</em></small> 
+                   <button onclick="new Audio('audio/a5_en.mp3').play()">🔊 EN</button>
+                   当然可以。 <small><em>(dāngrán kěyǐ.)</em></small> 
+                   <button onclick="new Audio('audio/a5_zh.mp3').play()">🔊 ZH</button>
+                   Đương nhiên rồi. <button class="btn-vn" onclick="new Audio('audio/a5_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_5').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> Nice to meet you. <small><em>(/naɪs tuː miːt juː/)</em></small> 
+               <button onclick="new Audio('audio/6_en.mp3').play()">🔊 EN</button>
+               很高兴见到你。 <small><em>(hěn gāoxìng jiàndào nǐ?)</em></small> 
+               <button onclick="new Audio('audio/6_zh.mp3').play()">🔊 ZH</button>
+               Rất vui được gặp bạn. <button class="btn-vn" onclick="new Audio('audio/6_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_6" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> Nice to meet you too. <small><em>(/naɪs tuː miːt juː tuː/)</em></small> 
+                   <button onclick="new Audio('audio/a6_en.mp3').play()">🔊 EN</button>
+                   我也很高兴见到你。 <small><em>(wǒ yě hěn gāoxìng.)</em></small> 
+                   <button onclick="new Audio('audio/a6_zh.mp3').play()">🔊 ZH</button>
+                   Tôi cũng rất vui. <button class="btn-vn" onclick="new Audio('audio/a6_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_6').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> What time is it? <small><em>(/wɒt taɪm ɪz ɪt/)</em></small> 
+               <button onclick="new Audio('audio/7_en.mp3').play()">🔊 EN</button>
+               现在几点了？ <small><em>(xiànzài jǐ diǎn le?)</em></small> 
+               <button onclick="new Audio('audio/7_zh.mp3').play()">🔊 ZH</button>
+               Bây giờ là mấy giờ? <button class="btn-vn" onclick="new Audio('audio/7_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_7" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> It is 8 o'clock. <small><em>(/ɪt ɪz eɪt əˈklɒk/)</em></small> 
+                   <button onclick="new Audio('audio/a7_en.mp3').play()">🔊 EN</button>
+                   现在八点。 <small><em>(xiànzài bā diǎn.)</em></small> 
+                   <button onclick="new Audio('audio/a7_zh.mp3').play()">🔊 ZH</button>
+                   Bây giờ là 8 giờ. <button class="btn-vn" onclick="new Audio('audio/a7_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_7').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> I am hungry. <small><em>(/aɪ æm ˈhʌŋɡri/)</em></small> 
+               <button onclick="new Audio('audio/8_en.mp3').play()">🔊 EN</button>
+               我饿了。 <small><em>(wǒ è le?)</em></small> 
+               <button onclick="new Audio('audio/8_zh.mp3').play()">🔊 ZH</button>
+               Tôi đói rồi. <button class="btn-vn" onclick="new Audio('audio/8_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_8" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> Let us eat now. <small><em>(/lɛt ʌs iːt naʊ/)</em></small> 
+                   <button onclick="new Audio('audio/a8_en.mp3').play()">🔊 EN</button>
+                   我们去吃饭吧。 <small><em>(wǒmen qù chīfàn ba.)</em></small> 
+                   <button onclick="new Audio('audio/a8_zh.mp3').play()">🔊 ZH</button>
+                   Chúng ta đi ăn thôi. <button class="btn-vn" onclick="new Audio('audio/a8_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_8').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> What is this? <small><em>(/wɒt ɪz ðɪs/)</em></small> 
+               <button onclick="new Audio('audio/9_en.mp3').play()">🔊 EN</button>
+               这是什么？ <small><em>(zhè shì shénme?)</em></small> 
+               <button onclick="new Audio('audio/9_zh.mp3').play()">🔊 ZH</button>
+               Đây là cái gì? <button class="btn-vn" onclick="new Audio('audio/9_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_9" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> It is a pen. <small><em>(/ɪt ɪz ə pɛn/)</em></small> 
+                   <button onclick="new Audio('audio/a9_en.mp3').play()">🔊 EN</button>
+                   这是一支笔。 <small><em>(zhè shì yì zhī bǐ.)</em></small> 
+                   <button onclick="new Audio('audio/a9_zh.mp3').play()">🔊 ZH</button>
+                   Đây là một cây bút. <button class="btn-vn" onclick="new Audio('audio/a9_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_9').style.display='block'">Hiện đáp án</button>
+        </div>
+        <div class="box">
+            <p><strong>Q:</strong> Have a nice day! <small><em>(/hæv ə naɪs deɪ/)</em></small> 
+               <button onclick="new Audio('audio/10_en.mp3').play()">🔊 EN</button>
+               祝你今天愉快! <small><em>(zhù nǐ jīntiān yúkuài!)</em></small> 
+               <button onclick="new Audio('audio/10_zh.mp3').play()">🔊 ZH</button>
+               Chúc bạn một ngày tốt lành! <button class="btn-vn" onclick="new Audio('audio/10_vn.mp3').play()">🔊 VN</button></p>
+            
+            <div id="a_10" style="display:none; padding:10px; background:#eef; border-radius:5px; margin-top:5px;">
+                <p><strong>A:</strong> You too. <small><em>(/juː tuː/)</em></small> 
+                   <button onclick="new Audio('audio/a10_en.mp3').play()">🔊 EN</button>
+                   你也是。 <small><em>(nǐ yě shì.)</em></small> 
+                   <button onclick="new Audio('audio/a10_zh.mp3').play()">🔊 ZH</button>
+                   Bạn cũng vậy. <button class="btn-vn" onclick="new Audio('audio/a10_vn.mp3').play()">🔊 VN</button></p>
+            </div>
+            <button onclick="document.getElementById('a_10').style.display='block'">Hiện đáp án</button>
+        </div></div></body></html>
